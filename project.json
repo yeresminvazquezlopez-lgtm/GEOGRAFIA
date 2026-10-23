@@ -1,0 +1,66 @@
+{
+  "title": "Puntos Cardinales de la brújula",
+  "author": "Anahí R., Yeresmin VL.",
+  "school": "UNISON CABORCA",
+  "date": "7/10/26",
+  "areaCodes": [
+    "exp"
+  ],
+  "areas": {
+    "es": "Ciencias experimentales"
+  },
+  "levelCodes": [
+    "PRI"
+  ],
+  "levels": {
+    "es": "Primaria (6-12)"
+  },
+  "description": {
+    "es": "Relacionar la imagen con el nombre "
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "puntos_cardinales_de_la_brujula.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 11,
+  "mediaFiles": 26,
+  "totalSize": 583680,
+  "files": [
+    "brujula_este.jpg",
+    "brujula_norte.jpg",
+    "brujula_oeste.jpg",
+    "brujula_sur.jpg",
+    "cactus.jpg",
+    "correcaminos.jpg",
+    "ecosistema_desierto_sonora-resized.jpg",
+    "favicon.ico",
+    "fondo.jpg",
+    "fondo_azul-resized.jpg",
+    "foto5.jpg",
+    "foto6.jpg",
+    "foto_1.jpg",
+    "foto_2.jpg",
+    "foto_3.jpg",
+    "foto_4.jpg",
+    "foto_7.jpg",
+    "foto_8.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "maguey.jpg",
+    "nopal-resized.jpg",
+    "portada-resized.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "puntos_cardinales_de_la_brujula.jclic",
+    "puntos_cardinales_de_la_brujula.jclic.js",
+    "tortuga.jpg"
+  ]
+}

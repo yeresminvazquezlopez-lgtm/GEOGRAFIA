@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="puntos_cardinales_de_la_brujula" version="0.1.3">
+ <settings>
+  <title>Puntos Cardinales de la brújula</title>
+  <revision description="created" date="10/7/26" />
+  <author name="Anahí R." />
+  <author name="Yeresmin VL." />
+  <organization name="UNISON CABORCA" />
+  <description>
+   <p>Relacionar la imagen con el nombre </p>
+  </description>
+  <descriptors area-codes="exp" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Relacionar la imagen con el nombre </p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="PORTADA" />
+  <item name="Puntos Cardinales de la Brújula" />
+  <item name="Imagen con imagen" />
+  <item name="Rompecabezas" />
+  <item name="Crucigrama" />
+  <item name="Sopa de letras" />
+  <item name="Texto 1" />
+  <item name="Texto 2" />
+  <item name="Texto 3" />
+  <item name="Texto 4" />
+  <item name="Texto 5" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.CrossWord" name="Crucigrama" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="24" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC33" />
+     </style>
+     <p>Resuelve el crucigrama</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="26" bold="true" />
+      <color foreground="0xFFFFFF" background="0x33FF99" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true" />
+   </settings>
+   <textGrid rows="19" columns="19" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x9EAD00CC" background="0xCCFFCC" inactive="0xFFCCCC" border="0x99CCFF" />
+    </style>
+    <text>
+     <row>********MAR********</row>
+     <row>********O**********</row>
+     <row>********N**********</row>
+     <row>*****CACTUS*PITAYA*</row>
+     <row>*****A**A***I******</row>
+     <row>*****B**Ñ***N******</row>
+     <row>*C***O**ARENA******</row>
+     <row>*O***R******C******</row>
+     <row>*Y*T*C******A******</row>
+     <row>SONORA******T******</row>
+     <row>*T*R********ERIZO**</row>
+     <row>*E*T***********O***</row>
+     <row>***U*******ALACRAN*</row>
+     <row>***G*******R***R***</row>
+     <row>***ALTAR***D***O***</row>
+     <row>***********I*******</row>
+     <row>***********L*******</row>
+     <row>***********L*******</row>
+     <row>***********A*******</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style>
+     <color background="0xCCCCFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="18" item="1" />
+    <cell id="18" item="0" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0" />
+    <cell id="17" item="1" />
+    <cell id="17" item="0" />
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="14" item="3" />
+    <cell id="14" item="1" />
+    <cell id="14" item="2" />
+    <cell id="14" item="0">
+     <p>Desierto donde está Caborca.</p>
+    </cell>
+    <cell id="13" item="3" />
+    <cell id="13" item="1" />
+    <cell id="13" item="2" />
+    <cell id="13" item="0" />
+    <cell id="12" item="1">
+     <p>Animal que se arrastra y tiene veneno en aguijón.</p>
+    </cell>
+    <cell id="12" item="1" />
+    <cell id="12" item="0" />
+    <cell id="11" item="3" />
+    <cell id="11" item="2" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="10" item="3" />
+    <cell id="10" item="2">
+     <p>Animal que se hace bolita con espinas.</p>
+    </cell>
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="9" item="0">
+     <p>Es un Estado del noroeste de México.</p>
+    </cell>
+    <cell id="9" item="0" />
+    <cell id="8" item="4" />
+    <cell id="8" item="3" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0" />
+    <cell id="8" item="2" />
+    <cell id="7" item="3" />
+    <cell id="7" item="2" />
+    <cell id="7" item="0" />
+    <cell id="7" item="1" />
+    <cell id="6" item="3" />
+    <cell id="6" item="0" />
+    <cell id="6" item="1" />
+    <cell id="6" item="2">
+     <p>Lo que más hay en las dunas.</p>
+    </cell>
+    <cell id="5" item="3" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1" />
+    <cell id="4" item="3" />
+    <cell id="4" item="2" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="3" item="2" />
+    <cell id="3" item="1">
+     <p>Fruto rojo del cactus.</p>
+    </cell>
+    <cell id="3" item="0">
+     <style>
+      <font family="Century Gothic" size="17" />
+     </style>
+     <p>Planta con espinas que guarda agua.</p>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="1" item="1" />
+    <cell id="1" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0">
+     <p>Masa de agua salada que se encuentra cerca de la costa.</p>
+    </cell>
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style>
+     <color background="0xCCCCFF" />
+    </style>
+    <cell id="12" item="2" />
+    <cell id="12" item="1" />
+    <cell id="18" item="0" />
+    <cell id="17" item="2" />
+    <cell id="17" item="1" />
+    <cell id="17" item="0" />
+    <cell id="15" item="2" />
+    <cell id="15" item="1" />
+    <cell id="15" item="0" />
+    <cell id="14" item="3" />
+    <cell id="14" item="2" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0">
+     <p>Animal que carga su casa en la espalda.</p>
+    </cell>
+    <cell id="2" item="1" />
+    <cell id="2" item="0" />
+    <cell id="1" item="0">
+     <p>Animal del desierto que aulla en la noche.</p>
+    </cell>
+    <cell id="1" item="0" />
+    <cell id="0" item="1" />
+    <cell id="0" item="0" />
+    <cell id="13" item="3" />
+    <cell id="13" item="2" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="12" item="0">
+     <p>Volcán de cráter negro cerca de Caborca.</p>
+    </cell>
+    <cell id="12" item="0" />
+    <cell id="4" item="2" />
+    <cell id="4" item="1" />
+    <cell id="4" item="0" />
+    <cell id="11" item="2" />
+    <cell id="11" item="1">
+     <p>Animal con cola esponjosa que come nueces.</p>
+    </cell>
+    <cell id="11" item="0" />
+    <cell id="5" item="2" />
+    <cell id="5" item="1" />
+    <cell id="5" item="0">
+     <p>Ciudad donde está la Perla del Desierto.</p>
+    </cell>
+    <cell id="6" item="2" />
+    <cell id="6" item="1" />
+    <cell id="6" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="10" item="3" />
+    <cell id="10" item="0" />
+    <cell id="10" item="2" />
+    <cell id="10" item="1" />
+    <cell id="9" item="3" />
+    <cell id="9" item="0" />
+    <cell id="9" item="2" />
+    <cell id="9" item="1" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0">
+     <style>
+      <font family="Century Gothic" size="17" />
+     </style>
+     <p>Elevación natural del terreno que tiene gran altura</p>
+    </cell>
+    <cell id="16" item="3">
+     <p>Animal mamífero salvaje de pelaje rojizo o gris.</p>
+    </cell>
+    <cell id="16" item="2" />
+    <cell id="16" item="1" />
+    <cell id="16" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Imagen con imagen" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>Imagen con imagen</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO AZUL-resized.jpg" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="FOTO 1.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO 3.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO5.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO 7.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="FOTO 2.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO 4.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO6.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+    <cell image="FOTO 8.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xCCFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="PORTADA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="26" bold="true" />
+      <color foreground="0xFFFFFF" background="0xD8B2FF" />
+     </style>
+     <p>Bienvenidos a este repaso</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xBFD0FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC7E3FA" border="true" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="600.0" cellHeight="340.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="PORTADA-resized.jpg" />
+   </cells>
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Puntos Cardinales de la Brújula" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x00CCCC" />
+     </style>
+     <p>Relaciona la imagen con su nombre </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x00CCCC" />
+     </style>
+     <p>¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO.jpg" tiled="false" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF9966" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="brújula NORTE.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFFCC99" />
+     </style>
+    </cell>
+    <cell image="brújula SUR.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFFCC99" />
+     </style>
+    </cell>
+    <cell image="brújula ESTE.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFFCC99" />
+     </style>
+    </cell>
+    <cell image="brújula OESTE.jpg">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" inactive="0xFFCC99" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="180.0" cellHeight="180.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" inactive="0xFFCCCC" />
+     </style>
+     <p>NORTE</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" inactive="0xFFCCCC" />
+     </style>
+     <p>SUR</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" inactive="0xFFCCCC" />
+     </style>
+     <p>ESTE</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" inactive="0xFFCCCC" />
+     </style>
+     <p>OESTE</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="Rompecabezas" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" />
+     </style>
+     <p>Ordena las piezas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFCC99" />
+     </style>
+     <p>¡Lo hiciste muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFFFFCC">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="4" cols="5" border="true" image="ecosistema_desierto_sonora-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="5" rows="4" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="20" bold="true" />
+      <color background="0x6699FF" />
+     </style>
+     <p>Encuentra las palabras escondidas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="24" bold="true" />
+      <color background="0x6699FF" />
+     </style>
+     <p>¡Bien hecho!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x8AED8A">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xE1FAAF" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="20.0" cellHeight="20.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>M***SONORA*****</row>
+     <row>O*************T</row>
+     <row>NORTE*********O</row>
+     <row>T*******C***F*R</row>
+     <row>A*******A***L*T</row>
+     <row>Ñ*******C***O*U</row>
+     <row>A*******T*D*R*G</row>
+     <row>****S***U*E*A*A</row>
+     <row>**FAUNA*S*S****</row>
+     <row>****R*****I****</row>
+     <row>**********E****</row>
+     <row>CABORCA***R****</row>
+     <row>**********T****</row>
+     <row>**********O****</row>
+     <row>***************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">MONTAÑA</clue>
+    <clue id="1">FAUNA</clue>
+    <clue id="2">FLORA</clue>
+    <clue id="3">NORTE</clue>
+    <clue id="4">SUR</clue>
+    <clue id="5">CABORCA</clue>
+    <clue id="6">SONORA</clue>
+    <clue id="7">TORTUGA</clue>
+    <clue id="8">CACTUS</clue>
+    <clue id="9">DESIERTO</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="Texto 1" code="">
+   <description />
+   <messages>
+    <cell type="previous">
+     <style />
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCCCCFF" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x99CCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <prevScreen />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="CORRECAMINOS.jpg">
+       <style>
+        <font family="Arial" size="17" bold="true" />
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false">Soy un </text>
+      <target>correcaminos</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false"> muy rápido, tengo patas largas y un pico en forma de cuña. Camino por el desierto.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto 2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC99FF" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC99FF" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Maguey.jpg">
+       <style>
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false">Soy un </text>
+      <target>maguey</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28" bold="false" italic="false"> una planta con hojas largas y puntuiagudas.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto 3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF9999" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF9999" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCC00">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Tortuga.jpg">
+       <style>
+        <font family="Century Gothic" size="28" bold="true" />
+        <color foreground="0xFFFFFF" background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28">Soy una </text>
+      <target>tortuga</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28"> de caparazón duro. Me gusta el sol y camino lento.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto 4" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0x009999" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCCCCFF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Cactus.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Century Gothic" background="0xFFFFFF" size="28">Soy un </text>
+      <target>cactus biznaga</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="28"> tengo espinas, soy verde y en el desierto vivo.Me dan sombra y alimento a muchos animales.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto 5" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xBEE697" />
+     </style>
+     <p>Escribe la palabra que falta en la definición</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Century Gothic" size="28" bold="true" />
+      <color foreground="0xFFFFFF" background="0xAFE37A" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xCC99FF">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCC99FF" border="true">
+     <size width="600" height="500" />
+    </window>
+   </settings>
+   <checkButton />
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="13" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="200" image="Nopal-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <font family="Arial" size="17" bold="true" />
+        <color background="0xFFFFFF" inactive="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="0">
+      <text family="Century Gothic" background="0xFFFFFF" size="26">Soy un </text>
+      <target>cactus</target>
+      <text family="Century Gothic" background="0xFFFFFF" size="26"> puedo ser grande o pequeña, mi piel tiene muchas espinas.Cuando llueve, no florezco.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="brújula ESTE.jpg" file="brujula_este.jpg" />
+  <media name="brújula NORTE.jpg" file="brujula_norte.jpg" />
+  <media name="brújula OESTE.jpg" file="brujula_oeste.jpg" />
+  <media name="brújula SUR.jpg" file="brujula_sur.jpg" />
+  <media name="Cactus.jpg" file="cactus.jpg" />
+  <media name="CORRECAMINOS.jpg" file="correcaminos.jpg" />
+  <media name="ecosistema_desierto_sonora-resized.jpg" file="ecosistema_desierto_sonora-resized.jpg" />
+  <media name="FONDO AZUL-resized.jpg" file="fondo_azul-resized.jpg" />
+  <media name="FONDO.jpg" file="fondo.jpg" />
+  <media name="FOTO 1.jpg" file="foto_1.jpg" />
+  <media name="FOTO 2.jpg" file="foto_2.jpg" />
+  <media name="FOTO 3.jpg" file="foto_3.jpg" />
+  <media name="FOTO 4.jpg" file="foto_4.jpg" />
+  <media name="FOTO 7.jpg" file="foto_7.jpg" />
+  <media name="FOTO 8.jpg" file="foto_8.jpg" />
+  <media name="FOTO5.jpg" file="foto5.jpg" />
+  <media name="FOTO6.jpg" file="foto6.jpg" />
+  <media name="Maguey.jpg" file="maguey.jpg" />
+  <media name="Nopal-resized.jpg" file="nopal-resized.jpg" />
+  <media name="PORTADA-resized.jpg" file="portada-resized.jpg" />
+  <media name="Tortuga.jpg" file="tortuga.jpg" />
+ </mediaBag>
+</JClicProject>
+
